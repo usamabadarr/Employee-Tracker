@@ -14,7 +14,7 @@ To get started with the Employee Tracker CLI, follow these steps:
 
 `git clone git@github.com:usamabadarr/Employee-Tracker.git`
 
-Install inquirer@8.2.4 and pg packages
+Install ``inquirer@8.2.4`` and ``pg package``
 
 Ensure you have Node.js and PostgreSQL installed.
 
