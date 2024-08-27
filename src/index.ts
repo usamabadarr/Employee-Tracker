@@ -71,7 +71,6 @@ import { pool, connectToDb } from './connection.js';
           JOIN department d ON r.department_id = d.id
           LEFT JOIN employee m ON e.manager_id = m.id;
         `;
-        console.log('hello');
         const result = await pool.query(sql);
         console.log(result);
         console.table(result.rows);
